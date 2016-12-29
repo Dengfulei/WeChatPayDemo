@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A6905158E4B99C84111141 /* libPods-YLPayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C48C9EB2322BE3366FEBD91 /* libPods-YLPayDemo.a */; };
+		615EF2141E136BFA00C61445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF2131E136BFA00C61445 /* main.m */; };
+		615EF2171E136BFA00C61445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF2161E136BFA00C61445 /* AppDelegate.m */; };
+		615EF21A1E136BFA00C61445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF2191E136BFA00C61445 /* ViewController.m */; };
+		615EF21D1E136BFA00C61445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615EF21B1E136BFA00C61445 /* Main.storyboard */; };
+		615EF21F1E136BFA00C61445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615EF21E1E136BFA00C61445 /* Assets.xcassets */; };
+		615EF2221E136BFA00C61445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615EF2201E136BFA00C61445 /* LaunchScreen.storyboard */; };
+		615EF22D1E136BFA00C61445 /* YLPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF22C1E136BFA00C61445 /* YLPayDemoTests.m */; };
+		615EF2381E136BFA00C61445 /* YLPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF2371E136BFA00C61445 /* YLPayDemoUITests.m */; };
+		615EF27F1E13772300C61445 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2791E13772300C61445 /* libWeChatSDK.a */; };
+		615EF2801E13772300C61445 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 615EF27A1E13772300C61445 /* read_me.txt */; };
+		615EF2811E13772300C61445 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 615EF27B1E13772300C61445 /* README.txt */; };
+		615EF2CD1E137A8600C61445 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2CC1E137A8600C61445 /* SystemConfiguration.framework */; };
+		615EF2CF1E137A9400C61445 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2CE1E137A9400C61445 /* libz.tbd */; };
+		615EF2D11E137AAB00C61445 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2D01E137AAB00C61445 /* libsqlite3.0.tbd */; };
+		615EF2D31E137ABE00C61445 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2D21E137ABE00C61445 /* libc++.tbd */; };
+		615EF2D51E137AC600C61445 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2D41E137AC600C61445 /* Security.framework */; };
+		615EF2D71E137AD800C61445 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2D61E137AD800C61445 /* CoreTelephony.framework */; };
+		615EF2D91E137ADE00C61445 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615EF2D81E137ADE00C61445 /* CFNetwork.framework */; };
+		615EF2E01E1390A300C61445 /* YLPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF2DF1E1390A300C61445 /* YLPayManager.m */; };
+		615EF2E31E1392AB00C61445 /* SignMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF2E21E1392AB00C61445 /* SignMD5.m */; };
+		615EF2E91E13A89300C61445 /* YLHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EF2E81E13A89300C61445 /* YLHttpManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		615EF2291E136BFA00C61445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615EF2071E136BFA00C61445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615EF20E1E136BFA00C61445;
+			remoteInfo = YLPayDemo;
+		};
+		615EF2341E136BFA00C61445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615EF2071E136BFA00C61445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615EF20E1E136BFA00C61445;
+			remoteInfo = YLPayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C48C9EB2322BE3366FEBD91 /* libPods-YLPayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLPayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		615EF20F1E136BFA00C61445 /* YLPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615EF2131E136BFA00C61445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		615EF2151E136BFA00C61445 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		615EF2161E136BFA00C61445 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		615EF2181E136BFA00C61445 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		615EF2191E136BFA00C61445 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		615EF21C1E136BFA00C61445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		615EF21E1E136BFA00C61445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		615EF2211E136BFA00C61445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615EF2231E136BFA00C61445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615EF2281E136BFA00C61445 /* YLPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615EF22C1E136BFA00C61445 /* YLPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPayDemoTests.m; sourceTree = "<group>"; };
+		615EF22E1E136BFA00C61445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615EF2331E136BFA00C61445 /* YLPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615EF2371E136BFA00C61445 /* YLPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPayDemoUITests.m; sourceTree = "<group>"; };
+		615EF2391E136BFA00C61445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615EF2791E13772300C61445 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		615EF27A1E13772300C61445 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		615EF27B1E13772300C61445 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		615EF27C1E13772300C61445 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		615EF27D1E13772300C61445 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		615EF27E1E13772300C61445 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		615EF2CC1E137A8600C61445 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		615EF2CE1E137A9400C61445 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		615EF2D01E137AAB00C61445 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		615EF2D21E137ABE00C61445 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		615EF2D41E137AC600C61445 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		615EF2D61E137AD800C61445 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		615EF2D81E137ADE00C61445 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		615EF2DE1E1390A300C61445 /* YLPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPayManager.h; sourceTree = "<group>"; };
+		615EF2DF1E1390A300C61445 /* YLPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPayManager.m; sourceTree = "<group>"; };
+		615EF2E11E1392AB00C61445 /* SignMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignMD5.h; sourceTree = "<group>"; };
+		615EF2E21E1392AB00C61445 /* SignMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignMD5.m; sourceTree = "<group>"; };
+		615EF2E71E13A89300C61445 /* YLHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHttpManager.h; sourceTree = "<group>"; };
+		615EF2E81E13A89300C61445 /* YLHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHttpManager.m; sourceTree = "<group>"; };
+		7C22FAECB54BDFF67A9C67BC /* Pods-YLPayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLPayDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLPayDemo/Pods-YLPayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DC409237693CDD68979C4926 /* Pods-YLPayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLPayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLPayDemo/Pods-YLPayDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615EF20C1E136BFA00C61445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615EF2D91E137ADE00C61445 /* CFNetwork.framework in Frameworks */,
+				615EF2D71E137AD800C61445 /* CoreTelephony.framework in Frameworks */,
+				615EF2D51E137AC600C61445 /* Security.framework in Frameworks */,
+				615EF2D31E137ABE00C61445 /* libc++.tbd in Frameworks */,
+				615EF2D11E137AAB00C61445 /* libsqlite3.0.tbd in Frameworks */,
+				615EF2CF1E137A9400C61445 /* libz.tbd in Frameworks */,
+				615EF2CD1E137A8600C61445 /* SystemConfiguration.framework in Frameworks */,
+				615EF27F1E13772300C61445 /* libWeChatSDK.a in Frameworks */,
+				41A6905158E4B99C84111141 /* libPods-YLPayDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615EF2251E136BFA00C61445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615EF2301E136BFA00C61445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615EF2061E136BFA00C61445 = {
+			isa = PBXGroup;
+			children = (
+				615EF2111E136BFA00C61445 /* YLPayDemo */,
+				615EF22B1E136BFA00C61445 /* YLPayDemoTests */,
+				615EF2361E136BFA00C61445 /* YLPayDemoUITests */,
+				615EF2101E136BFA00C61445 /* Products */,
+				93E98E702B082E89A5756662 /* Pods */,
+				A0DFE803F7F4D976CC749C74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		615EF2101E136BFA00C61445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615EF20F1E136BFA00C61445 /* YLPayDemo.app */,
+				615EF2281E136BFA00C61445 /* YLPayDemoTests.xctest */,
+				615EF2331E136BFA00C61445 /* YLPayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615EF2111E136BFA00C61445 /* YLPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				615EF2DC1E138C3200C61445 /* NetWorkHelper */,
+				615EF2771E13772300C61445 /* libs */,
+				615EF2151E136BFA00C61445 /* AppDelegate.h */,
+				615EF2161E136BFA00C61445 /* AppDelegate.m */,
+				615EF2181E136BFA00C61445 /* ViewController.h */,
+				615EF2191E136BFA00C61445 /* ViewController.m */,
+				615EF2DE1E1390A300C61445 /* YLPayManager.h */,
+				615EF2DF1E1390A300C61445 /* YLPayManager.m */,
+				615EF2E11E1392AB00C61445 /* SignMD5.h */,
+				615EF2E21E1392AB00C61445 /* SignMD5.m */,
+				615EF21B1E136BFA00C61445 /* Main.storyboard */,
+				615EF21E1E136BFA00C61445 /* Assets.xcassets */,
+				615EF2201E136BFA00C61445 /* LaunchScreen.storyboard */,
+				615EF2231E136BFA00C61445 /* Info.plist */,
+				615EF2121E136BFA00C61445 /* Supporting Files */,
+			);
+			path = YLPayDemo;
+			sourceTree = "<group>";
+		};
+		615EF2121E136BFA00C61445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				615EF2131E136BFA00C61445 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		615EF22B1E136BFA00C61445 /* YLPayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				615EF22C1E136BFA00C61445 /* YLPayDemoTests.m */,
+				615EF22E1E136BFA00C61445 /* Info.plist */,
+			);
+			path = YLPayDemoTests;
+			sourceTree = "<group>";
+		};
+		615EF2361E136BFA00C61445 /* YLPayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				615EF2371E136BFA00C61445 /* YLPayDemoUITests.m */,
+				615EF2391E136BFA00C61445 /* Info.plist */,
+			);
+			path = YLPayDemoUITests;
+			sourceTree = "<group>";
+		};
+		615EF2771E13772300C61445 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				615EF2781E13772300C61445 /* WeChatSDK */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		615EF2781E13772300C61445 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				615EF2791E13772300C61445 /* libWeChatSDK.a */,
+				615EF27A1E13772300C61445 /* read_me.txt */,
+				615EF27B1E13772300C61445 /* README.txt */,
+				615EF27C1E13772300C61445 /* WechatAuthSDK.h */,
+				615EF27D1E13772300C61445 /* WXApi.h */,
+				615EF27E1E13772300C61445 /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		615EF2DC1E138C3200C61445 /* NetWorkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				615EF2E71E13A89300C61445 /* YLHttpManager.h */,
+				615EF2E81E13A89300C61445 /* YLHttpManager.m */,
+			);
+			path = NetWorkHelper;
+			sourceTree = "<group>";
+		};
+		93E98E702B082E89A5756662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C22FAECB54BDFF67A9C67BC /* Pods-YLPayDemo.debug.xcconfig */,
+				DC409237693CDD68979C4926 /* Pods-YLPayDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0DFE803F7F4D976CC749C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				615EF2D81E137ADE00C61445 /* CFNetwork.framework */,
+				615EF2D61E137AD800C61445 /* CoreTelephony.framework */,
+				615EF2D41E137AC600C61445 /* Security.framework */,
+				615EF2D21E137ABE00C61445 /* libc++.tbd */,
+				615EF2D01E137AAB00C61445 /* libsqlite3.0.tbd */,
+				615EF2CE1E137A9400C61445 /* libz.tbd */,
+				615EF2CC1E137A8600C61445 /* SystemConfiguration.framework */,
+				1C48C9EB2322BE3366FEBD91 /* libPods-YLPayDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615EF20E1E136BFA00C61445 /* YLPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615EF23C1E136BFA00C61445 /* Build configuration list for PBXNativeTarget "YLPayDemo" */;
+			buildPhases = (
+				BFF55F8FE6C95E34F0A222D1 /* [CP] Check Pods Manifest.lock */,
+				615EF20B1E136BFA00C61445 /* Sources */,
+				615EF20C1E136BFA00C61445 /* Frameworks */,
+				615EF20D1E136BFA00C61445 /* Resources */,
+				8F81B0B721DAEE9FA3E68833 /* [CP] Embed Pods Frameworks */,
+				835EC745D74F469D6368E12B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLPayDemo;
+			productName = YLPayDemo;
+			productReference = 615EF20F1E136BFA00C61445 /* YLPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		615EF2271E136BFA00C61445 /* YLPayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615EF23F1E136BFA00C61445 /* Build configuration list for PBXNativeTarget "YLPayDemoTests" */;
+			buildPhases = (
+				615EF2241E136BFA00C61445 /* Sources */,
+				615EF2251E136BFA00C61445 /* Frameworks */,
+				615EF2261E136BFA00C61445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615EF22A1E136BFA00C61445 /* PBXTargetDependency */,
+			);
+			name = YLPayDemoTests;
+			productName = YLPayDemoTests;
+			productReference = 615EF2281E136BFA00C61445 /* YLPayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		615EF2321E136BFA00C61445 /* YLPayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615EF2421E136BFA00C61445 /* Build configuration list for PBXNativeTarget "YLPayDemoUITests" */;
+			buildPhases = (
+				615EF22F1E136BFA00C61445 /* Sources */,
+				615EF2301E136BFA00C61445 /* Frameworks */,
+				615EF2311E136BFA00C61445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615EF2351E136BFA00C61445 /* PBXTargetDependency */,
+			);
+			name = YLPayDemoUITests;
+			productName = YLPayDemoUITests;
+			productReference = 615EF2331E136BFA00C61445 /* YLPayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		615EF2071E136BFA00C61445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DFL;
+				TargetAttributes = {
+					615EF20E1E136BFA00C61445 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B73KLDE8D3;
+						ProvisioningStyle = Automatic;
+					};
+					615EF2271E136BFA00C61445 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 615EF20E1E136BFA00C61445;
+					};
+					615EF2321E136BFA00C61445 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 615EF20E1E136BFA00C61445;
+					};
+				};
+			};
+			buildConfigurationList = 615EF20A1E136BFA00C61445 /* Build configuration list for PBXProject "YLPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 615EF2061E136BFA00C61445;
+			productRefGroup = 615EF2101E136BFA00C61445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615EF20E1E136BFA00C61445 /* YLPayDemo */,
+				615EF2271E136BFA00C61445 /* YLPayDemoTests */,
+				615EF2321E136BFA00C61445 /* YLPayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615EF20D1E136BFA00C61445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615EF2221E136BFA00C61445 /* LaunchScreen.storyboard in Resources */,
+				615EF21F1E136BFA00C61445 /* Assets.xcassets in Resources */,
+				615EF2801E13772300C61445 /* read_me.txt in Resources */,
+				615EF21D1E136BFA00C61445 /* Main.storyboard in Resources */,
+				615EF2811E13772300C61445 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615EF2261E136BFA00C61445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615EF2311E136BFA00C61445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		835EC745D74F469D6368E12B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLPayDemo/Pods-YLPayDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F81B0B721DAEE9FA3E68833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLPayDemo/Pods-YLPayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF55F8FE6C95E34F0A222D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615EF20B1E136BFA00C61445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615EF21A1E136BFA00C61445 /* ViewController.m in Sources */,
+				615EF2E31E1392AB00C61445 /* SignMD5.m in Sources */,
+				615EF2E91E13A89300C61445 /* YLHttpManager.m in Sources */,
+				615EF2171E136BFA00C61445 /* AppDelegate.m in Sources */,
+				615EF2141E136BFA00C61445 /* main.m in Sources */,
+				615EF2E01E1390A300C61445 /* YLPayManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615EF2241E136BFA00C61445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615EF22D1E136BFA00C61445 /* YLPayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615EF22F1E136BFA00C61445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615EF2381E136BFA00C61445 /* YLPayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		615EF22A1E136BFA00C61445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615EF20E1E136BFA00C61445 /* YLPayDemo */;
+			targetProxy = 615EF2291E136BFA00C61445 /* PBXContainerItemProxy */;
+		};
+		615EF2351E136BFA00C61445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615EF20E1E136BFA00C61445 /* YLPayDemo */;
+			targetProxy = 615EF2341E136BFA00C61445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		615EF21B1E136BFA00C61445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615EF21C1E136BFA00C61445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615EF2201E136BFA00C61445 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615EF2211E136BFA00C61445 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		615EF23A1E136BFA00C61445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		615EF23B1E136BFA00C61445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		615EF23D1E136BFA00C61445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C22FAECB54BDFF67A9C67BC /* Pods-YLPayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B73KLDE8D3;
+				INFOPLIST_FILE = YLPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YLPayDemo/libs/WeChatSDK",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.YLPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		615EF23E1E136BFA00C61445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC409237693CDD68979C4926 /* Pods-YLPayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B73KLDE8D3;
+				INFOPLIST_FILE = YLPayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YLPayDemo/libs/WeChatSDK",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.YLPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		615EF2401E136BFA00C61445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.YLPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLPayDemo.app/YLPayDemo";
+			};
+			name = Debug;
+		};
+		615EF2411E136BFA00C61445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.YLPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLPayDemo.app/YLPayDemo";
+			};
+			name = Release;
+		};
+		615EF2431E136BFA00C61445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.YLPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLPayDemo;
+			};
+			name = Debug;
+		};
+		615EF2441E136BFA00C61445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.YLPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLPayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615EF20A1E136BFA00C61445 /* Build configuration list for PBXProject "YLPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615EF23A1E136BFA00C61445 /* Debug */,
+				615EF23B1E136BFA00C61445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615EF23C1E136BFA00C61445 /* Build configuration list for PBXNativeTarget "YLPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615EF23D1E136BFA00C61445 /* Debug */,
+				615EF23E1E136BFA00C61445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615EF23F1E136BFA00C61445 /* Build configuration list for PBXNativeTarget "YLPayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615EF2401E136BFA00C61445 /* Debug */,
+				615EF2411E136BFA00C61445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615EF2421E136BFA00C61445 /* Build configuration list for PBXNativeTarget "YLPayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615EF2431E136BFA00C61445 /* Debug */,
+				615EF2441E136BFA00C61445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 615EF2071E136BFA00C61445 /* Project object */;
+}
